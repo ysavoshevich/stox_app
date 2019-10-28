@@ -1,0 +1,47 @@
+.Button {
+  padding: 15px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 27px;
+  font-size: 18px;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 5px;
+  align-self: center;
+  transition: background 0.3s ease;
+}
+
+.Regular {
+  color: white;
+  background: #69118b;
+}
+
+.Regular:hover {
+  background: #4d0c66;
+}
+
+.Regular:disabled {
+  cursor: not-allowed;
+  background: #80668a;
+}
+
+.Orange {
+  color: white;
+  background: orange;
+}
+
+.Orange:hover {
+  background: rgb(211, 137, 0);
+}
+
+.Orange:disabled {
+  cursor: not-allowed;
+  background: #e5cf86;
+}
+
+@media screen and (max-width: 800px) {
+  .Button {
+    width: 70%;
+  }
+}

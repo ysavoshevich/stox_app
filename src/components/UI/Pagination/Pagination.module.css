@@ -1,0 +1,35 @@
+.PageNumbers {
+  margin: 25px;
+  display: none;
+}
+
+.Arrows {
+  display: flex;
+  margin: 30px 0px 30px 0px;
+}
+
+.Arrows i {
+  margin: 0px 5px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.Arrows i:hover {
+  color: #69118b;
+}
+
+@media screen and (max-width: 1100px) {
+  .PageNumbers {
+    display: none;
+  }
+
+  .Arrows {
+    display: flex;
+    margin: 30px 0px 30px 0px;
+  }
+
+  .Arrows i {
+    margin: 0px 5px;
+    cursor: pointer;
+  }
+}

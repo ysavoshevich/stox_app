@@ -1,0 +1,58 @@
+.InputElement label {
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.Input {
+  border-radius: 2px;
+  font-size: 15px;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  color: black;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 20px;
+  display: flex;
+  padding: 0;
+}
+
+.Input input {
+  border: 1px solid rgb(228, 228, 228);
+  margin-left: 2px;
+  outline: none;
+  padding: 5px;
+  width: 100%;
+}
+
+.Input select {
+  border: 1px solid rgb(228, 228, 228);
+  margin-left: 2px;
+  outline: none;
+  padding: 5px;
+  width: 100%;
+}
+
+.Input i {
+  padding: 10px;
+  background: rgb(236, 236, 236);
+  color: rgb(172, 172, 172);
+}
+
+.Valid {
+  background: rgba(255, 255, 255, 0.1);
+  background-color: #ffffff;
+}
+
+.Invalid {
+  border: red 1px solid;
+  background: lightcoral;
+}
+
+.Danger {
+  color: lightcoral;
+}

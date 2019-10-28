@@ -1,0 +1,18 @@
+.PageNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  border: 1px solid #520f6d;
+  border-radius: 50%;
+  color: #520f6d;
+  cursor: pointer;
+  margin: 5px;
+  user-select: none;
+}
+
+.CurrentPage {
+  background: #520f6d;
+  color: white;
+}

@@ -1,0 +1,123 @@
+a {
+  color: #520f6d;
+}
+
+.Wrapper {
+  height: 58px;
+  position: relative;
+  z-index: 5;
+}
+
+.Navbar {
+  position: relative;
+  z-index: 5;
+  margin: 0;
+  height: 58px;
+  background: #3e185e;
+  color: white;
+  width: 100%;
+}
+
+.Navbar li {
+  list-style: none;
+  font-size: 20px;
+}
+
+.Navbar button {
+  align-self: center;
+  justify-self: center;
+  width: 100px;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+.Navbar i {
+  cursor: pointer;
+  color: white;
+}
+
+.Navbar h3 {
+  font-size: 35px;
+
+  cursor: pointer;
+}
+
+.Navbar ul li > a:hover {
+  color: orange;
+}
+
+.Navbar a,
+.Wrapper a {
+  padding: 10px;
+  border-radius: 20px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 0px 5px;
+  transition: background 0.4s ease;
+}
+
+.MobileNav {
+  width: 100%;
+  display: none;
+  list-style: none;
+  background: #3e185e;
+}
+
+.MobileNav li a {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.MobileNav li:hover {
+  transition: background 0.3s ease;
+  background: #6d2aa3;
+}
+
+.MobileView {
+  z-index: 1;
+  display: none;
+  width: 100%;
+}
+
+.WidescreenView {
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.WidescreenNav {
+  display: flex;
+}
+
+.WidescreenNav a:hover {
+  color: orange;
+}
+
+@media screen and (max-width: 1100px) {
+  .Navbar h3 {
+    align-self: center;
+    justify-self: center;
+  }
+
+  .MobileNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .MobileView {
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .WidescreenView {
+    display: none;
+  }
+}

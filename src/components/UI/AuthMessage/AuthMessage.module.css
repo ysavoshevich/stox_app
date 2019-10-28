@@ -1,0 +1,16 @@
+.AuthMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.Danger {
+  color: red;
+  font-weight: bold;
+}
+
+.Success {
+  color: rgb(57, 209, 57);
+  font-weight: bold;
+}

@@ -1,0 +1,60 @@
+.Main {
+  height: calc(100vh - 58px);
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.MobileMain {
+  display: none;
+}
+
+.InfoSection {
+  border-right: #3e185e solid 2px;
+  height: calc(100vh - 58px);
+  padding: 30px;
+  display: grid;
+  grid-template-rows: 15% 74%;
+  gap: 20px;
+  position: relative;
+}
+
+.SearchAndMessage {
+  display: flex;
+}
+
+.Charts {
+  height: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .Charts {
+    display: none;
+  }
+
+  .Main {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .InfoSection {
+    padding-bottom: 20px;
+    border-right: none;
+    height: 100%;
+    padding: 30px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Main {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .Main {
+    width: 85%;
+  }
+}

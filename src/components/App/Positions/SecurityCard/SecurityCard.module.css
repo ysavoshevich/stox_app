@@ -1,0 +1,56 @@
+.SecurityCard {
+  padding: 10px 10px 3px 10px;
+  margin: 0px 5px;
+  width: 270px;
+  height: 200px;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 8px;
+  background: #3e185e;
+  color: white;
+}
+
+.SecurityCard button {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+}
+
+.SecurityCard h3 {
+  text-align: center;
+}
+
+.Success {
+  color: rgb(5, 214, 5);
+}
+
+.Danger {
+  color: rgb(248, 37, 37);
+}
+
+.Center {
+  width: 100%;
+  display: flex;
+  margin: 10px 0 0 0;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .SecurityCard {
+    margin: 10px 0px 0px 10px;
+    height: 200px;
+    width: 270px;
+  }
+
+  .SecurityCard button {
+    padding: 10px;
+    width: 65%;
+  }
+}
+
+/* @media screen and (max-width: 400px) {
+  .SecurityCard {
+    margin: 10px 0px 0px 10px;
+    height: 180px;
+    width: 250px;
+  }
+} */

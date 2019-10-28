@@ -1,0 +1,29 @@
+.Message {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 15px; */
+}
+
+.Danger {
+  color: red;
+  border: 1px solid red;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.Success {
+  color: rgb(57, 209, 57);
+  border: 1px solid rgb(57, 209, 57);
+  font-weight: bold;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  .Message {
+    display: none;
+  }
+}

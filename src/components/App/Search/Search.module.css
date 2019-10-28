@@ -1,0 +1,49 @@
+.Search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 35px;
+  background: rgb(241, 241, 241);
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.Search i {
+  display: block;
+  padding: 5px;
+  transition: color 0.3s ease;
+}
+
+.Search i:nth-child(3) {
+  cursor: pointer;
+}
+
+.Search > i:hover {
+  color: rgb(114, 13, 114);
+}
+
+.Search input {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.FocusBorder {
+  border: rgb(114, 13, 114) 1px solid;
+}
+
+.IconColorActive {
+  color: rgb(114, 13, 114);
+}
+
+.IconColor {
+  color: rgb(219, 219, 219);
+}
+
+@media screen and (max-width: 1100px) {
+  .Search {
+    margin: auto;
+  }
+}

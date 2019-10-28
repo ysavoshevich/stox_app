@@ -1,0 +1,61 @@
+.GeneralInfo {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.GeneralInfo p {
+  text-emphasis: none;
+  font-weight: bold;
+  margin: 10px 20px 20px 0px;
+}
+
+.GeneralInfo p span {
+  font-weight: normal;
+}
+
+.GeneralInfo h1 {
+  font-size: 25px;
+  margin-right: 5px;
+  color: #3e185e;
+}
+
+.Stats {
+  display: flex;
+}
+
+.Success {
+  color: rgb(0, 182, 0);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Danger {
+  color: rgb(255, 21, 21);
+}
+
+@media screen and (max-width: 1100px) {
+  .GeneralInfo {
+    margin-bottom: 30px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+  }
+
+  .GeneralInfo h1 {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px auto 10px auto;
+  }
+
+  .GeneralInfo p {
+    margin: 5px 0px 0px 5px;
+  }
+
+  .Stats {
+    display: flex;
+    flex-direction: column;
+  }
+}

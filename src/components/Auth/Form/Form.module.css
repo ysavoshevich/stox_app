@@ -1,0 +1,78 @@
+.Form {
+  width: 350px;
+  background: rgb(255, 255, 255);
+  box-shadow: 1px 1px 1px 1px white;
+  margin: 10px auto;
+  border-radius: 3px;
+  transform: translateY(-100px);
+}
+
+.Inputs {
+  padding: 5px 20px;
+}
+
+.Form .Btn {
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  cursor: pointer;
+  outline: none;
+  background: white;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.Form p {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Form a {
+  text-decoration: none;
+  color: #6324aa;
+  font-weight: bold;
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+.Form span {
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.Center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Inactive {
+  border: none;
+  color: rgb(155, 155, 155);
+  border-bottom: rgb(155, 155, 155) 1px solid;
+}
+
+.Active {
+  border: none;
+  color: black;
+  border-bottom: black 1px solid;
+}
+
+.Height_small {
+  height: 340px;
+}
+
+@media (max-width: 800px) {
+  .Form {
+    width: 300px;
+  }
+
+  .Form span {
+    font-size: 12px;
+  }
+}
